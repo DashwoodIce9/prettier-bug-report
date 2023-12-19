@@ -1,0 +1,20 @@
+{
+    "name": "bug_report",
+    "version": "1.0.0",
+    "scripts": {
+        "format": "prettier --check Test.java"
+    },
+    "prettier": {
+        "printWidth": 120,
+        "tabWidth": 4,
+        "trailingComma": "all",
+        "useTabs": false,
+        "plugins": [
+            "prettier-plugin-java"
+        ]
+    },
+    "devDependencies": {
+        "prettier": "^3.1.1",
+        "prettier-plugin-java": "^2.5.0"
+    }
+}
